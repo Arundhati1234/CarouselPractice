@@ -6,8 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Expanding Cards</title>
+    <link rel="icon" type="image/png" href="favicon.gif"/>
 </head>
 <body>
+
+    <div class="how-to">
+        <h2>Expanding Cards</h2>
+        <ul>
+            <li>Created panels in html using <span class='act'>divs</span> and <span class='act'>h3</span> for captions</li>
+            <li>Used <span class='act'>inline styling</span> in html for adding pictures</li>
+            <li>In CSS, styled each panel and created a separate class of styling called <span class='act'>.active</span></li>
+            <li>Added <span class='act'>click event listeners</span> to each panel in javascript. On-click the <span class="act">.active</span> is added/removed from classlist</li>
+        </ul>
+        <h3>Concepts used:</h3>
+        <ul>
+            <li>Flexbox</li>
+            <li>Transitions</li>
+            <li>Media Queries to make it mobile-responsive</li>
+        </ul>
+        <h3>Future Development Ideas</h3>
+        <ul>
+            <li>Add videos instead of static images</li>
+            <li>Connect to SQL database to make it dynamic</li>
+        </ul>
+
+        <button onclick="window.location.href = 'https://github.com/Arundhati1234/CarouselPractice';">
+        Github
+    </button>
+    <br><br>
+    <h5>Picture Credits(left-to-right): Anindita Bandopadhyaya, Purba Saha, Atishraj Desai, Diya Dodwad, Kaushik Ojha, Aabir Aich, Arundhati Bandopadhyaya</h5>
+        
+    </ul>
+
+    </div>
+    
     <div class="carousel">
     <div class="container">
         <div class="panel active" style="background-image: url('Anarkali.jpg');">
@@ -34,9 +66,10 @@
         </div>
     </div>
 </div>
-    <footer>
+
+    <!-- <footer>
         Picture Credits (left-to-right): Anindita Bandopadhyaya, Purba Saha, Atishraj Desai, Diya Dodwad, Kaushik Ojha, Aabir Aich, Mithi
-    </footer>
+    </footer> -->
 
 
     <script src="scripts.js"></script>
