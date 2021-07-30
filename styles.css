@@ -2,10 +2,11 @@
 
 body, html{
     margin: 0;
-    padding: 0;
+    padding: 0 10px;
     box-sizing: border-box;
     font-family: 'Gowun Dodum', sans-serif;
-    background-image: linear-gradient( to bottom right, rgb(216, 213, 213), rgb(190, 189, 189));
+    background-image: url('bg.jpg');
+    display: flex;
 }
 
 .carousel{
@@ -68,9 +69,22 @@ body, html{
 
 /**********************************************/
 
-footer{
-    background-color: rgb(46, 42, 42);
-    color: white;
-    padding: 5px;
-    text-align: center;
+.how-to{
+    margin-top: 40px;
+    flex: 0.8;
+    margin-right: 50px;
+    color: rgb(41, 38, 38);
+}
+
+button{
+    background-color: transparent;
+    border:1px solid rgb(41, 38, 38);
+    color: rgb(41, 38, 38);
+    padding: 7px 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.act{
+    font-weight: 600;
 }
